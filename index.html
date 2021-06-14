@@ -2,61 +2,18 @@
    <head>
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <style>
-           img {
-              display: block;
-              margin-left: auto;
-              margin-right: auto;
-            }
-
-            .loader {
-                position: absolute;
-                top: 45%;
-                left: 45%;
-                border: 16px solid #f3f3f3;
-                border-radius: 50%;
-                border-top: 16px solid #f3a224;
-                width: 120px;
-                height: 120px;
-                -webkit-animation: spin 2s linear infinite; /* Safari */
-                animation: spin 2s linear infinite;
-            }
-            
-            /* Safari */
-            @-webkit-keyframes spin {
-                0% { -webkit-transform: rotate(0deg); }
-                100% { -webkit-transform: rotate(360deg); }
-            }
-            
-            @keyframes spin {
-                0% { transform: rotate(0deg); }
-                100% { transform: rotate(360deg); }
-            }
-            
+           iframe {
+               width: 100% !important;
+               height: 100% !important;
+               border-width: 0px !important;
+           }
         </style>
    </head>
    <body>
 
-        <!-- <div class="loader"></div> -->
+        <iframe src="https://boma.muvi.com/en" title="Boma" class=""></iframe>
 
        <script src="./microapp/microapp.js"></script>
-       <script>
-
-        //    var Ayoba = getAyoba();
-        //    Ayoba.location.replace('https://boma.muvi.com/en');
-            // Ayoba.addEventListener("DOMContentLoaded", function(event) {
-            //     location.replace('https://boma.muvi.com/en');
-            // })
-            // function finish() {
-            //     Ayoba.location.replace('https://boma.muvi.com/en');
-            //     Ayoba.finish();
-            // }
-            // document.addEventListener("DOMContentLoaded", function(event) { 
-            //     finish();
-            // });
-       </script>
-       <script>sayHello()</script>
-
-       <img src="logo.png" style="width:72px;"/>
 
    </body>
 </html>
