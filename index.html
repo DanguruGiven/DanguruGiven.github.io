@@ -33,9 +33,12 @@
 
        <script src="../lib/microapp.js"></script>
        <script>
-            document.addEventListener("DOMContentLoaded", function(event) { 
-                location.replace('https://boma.muvi.com/en');
-            });
+           function finish() {
+                document.addEventListener("DOMContentLoaded", function(event) { 
+                    location.replace('https://boma.muvi.com/en');
+                });
+                Ayoba.finish();
+            }
        </script>
    </body>
 </html>
