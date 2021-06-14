@@ -2,6 +2,12 @@
    <head>
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <style>
+           img {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+
             .loader {
                 position: absolute;
                 top: 45%;
@@ -25,24 +31,32 @@
                 0% { transform: rotate(0deg); }
                 100% { transform: rotate(360deg); }
             }
+            
         </style>
    </head>
    <body>
 
-        <div class="loader"></div>
+        <!-- <div class="loader"></div> -->
 
        <script src="./microapp/microapp.js"></script>
        <script>
+
+        //    var Ayoba = getAyoba();
+        //    Ayoba.location.replace('https://boma.muvi.com/en');
             // Ayoba.addEventListener("DOMContentLoaded", function(event) {
             //     location.replace('https://boma.muvi.com/en');
             // })
             // function finish() {
-            //     Ayoba.replace('https://boma.muvi.com/en')
+            //     Ayoba.location.replace('https://boma.muvi.com/en');
             //     Ayoba.finish();
             // }
-            document.addEventListener("DOMContentLoaded", function(event) { 
-                location.replace('https://boma.muvi.com/en');
-            });
+            // document.addEventListener("DOMContentLoaded", function(event) { 
+            //     finish();
+            // });
        </script>
+       <script>sayHello()</script>
+
+       <img src="logo.png" style="width:72px;"/>
+
    </body>
 </html>
